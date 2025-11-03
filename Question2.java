@@ -15,8 +15,8 @@ public class Question2
         String name = sc.nextLine();
 
 
-        System.out.println("Student Name ===================== "+name);
-        System.out.println("Student Roll no. ================= "+rol);
-        System.out.println("Student Marks ==================== "+marks);    
+        System.out.println("Student Name ============ "+name);
+        System.out.println("Student Roll no. ======== "+rol);
+        System.out.println("Student Marks =========== "+marks);    
     }
 }
