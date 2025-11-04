@@ -19,6 +19,8 @@ class Rectangle
         return area;
     }
 }
+
+
 public class Question5
 {
     public static void main(String[] args) {
@@ -27,7 +29,7 @@ public class Question5
         double Length=sc.nextDouble();
         double Width=sc.nextDouble();
 
-        Rectangle rect=new Rectangle(Length, Width);
+        Rectangle rect = new Rectangle(Length, Width);
         System.out.println("The Area of the Rectangle is "+rect.Area()+" sq.units");
     }
 }
