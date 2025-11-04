@@ -31,8 +31,7 @@ class Document implements Printable, Shareable
 }
 public class Question16
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args){
         Document doc = new Document("Hi guis");
 
         doc.print();
