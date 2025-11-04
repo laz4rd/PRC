@@ -1,5 +1,3 @@
 # Java
 
-int == Int
-double == Double
-char == Character
+Question 8 & 13 Skipped So far

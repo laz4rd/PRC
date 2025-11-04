@@ -33,6 +33,7 @@ class Manager extends Employee
         this.department=department;
         this.bonus=bonus;
     }
+
     @Override
     public void display()
     {
