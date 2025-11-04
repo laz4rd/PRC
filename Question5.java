@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-class Rectangle //Rectangle Class
+class Rectangle
 {
     double length;
     double width;
