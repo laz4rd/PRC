@@ -15,17 +15,16 @@ public class Question4
         {
             a[i]=sc.nextInt();
         }
-        int MAX=0;
-        int MIN=0;
-        int temp=0;
+        int MAX=a[0];
+        int MIN=a[0];
+
         for(int i=1;i<a.length;i++) //Array large small checker
         {
-            if(a[i]>a[i-1])
+            if(a[i]>MAX)
             {
-                MAX  = a[i];
-                temp = MAX;
+                MAX=a[i];
             }
-            if(a[i]<a[i-1])
+            // if(a[i]<MIN)
             {
                 MIN=a[i];
             }
