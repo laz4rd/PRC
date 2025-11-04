@@ -1,7 +1,7 @@
 // Write a Java program to calculate and display the gross salary of an employee,
 // where HRA = 20%, DA = 50%, and PF = 11% of the basic salary.
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Question1
 {
