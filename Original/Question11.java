@@ -1,4 +1,6 @@
+package Original;
 // Write a Java program to divide two numbers
+
 // and handle ArithmeticException when the denominator is zero.
 
 import java.util.*;

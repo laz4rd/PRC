@@ -3,7 +3,7 @@
 // Import and use this package in another program.
 
 // File: mypack/Calculator.java
-package com.laz4rd.mypackages;
+package Original.com.laz4rd.mypackages;
 
 public class Calculator {
     // Method to add two numbers

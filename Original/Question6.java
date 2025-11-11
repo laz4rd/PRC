@@ -1,4 +1,6 @@
+package Original;
 // Write a Java program to display the
+
 // Fibonacci series up to n terms using a while loop.
 
 import java.util.*;
@@ -15,7 +17,7 @@ public class Question6 {
         System.out.print("Fibonacci Series: ");
 
         while (count < n) {
-            System.out.print(a +" ");
+            System.out.print(a + " ");
             int next = a + b;
             a = b;
             b = next;

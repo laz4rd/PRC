@@ -1,7 +1,9 @@
+package Original;
 // Write a Java program with a method readFile() that declares throws
+
 // IOException. Handle this exception in the main() method.
 
-import java.io.*;  // for IOException and FileReader
+import java.io.*; // for IOException and FileReader
 
 public class Question8 {
 
@@ -21,9 +23,8 @@ public class Question8 {
 
     public static void main(String[] args) {
         try {
-            readFile();  // may throw IOException
-        } 
-        catch (IOException e) {
+            readFile(); // may throw IOException
+        } catch (IOException e) {
             System.out.println("An error occurred while reading the file: " + e.getMessage());
         }
 
