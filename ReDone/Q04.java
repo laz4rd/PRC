@@ -22,9 +22,9 @@ public class Q04 {
             }
         }
 
+        sc.close();
+
         System.out.println("The largest Number in the array is: " + MAX);
         System.out.println("The smallest Number in the array is: " + MIN);
-
-        sc.close();
     }
 }

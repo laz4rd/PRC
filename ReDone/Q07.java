@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 import mypack.Calculator;
 
 public class Q07 {

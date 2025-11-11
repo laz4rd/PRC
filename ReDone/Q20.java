@@ -4,8 +4,8 @@ class Acc
     private double Pr;
 
     public Acc(int AccNo, double Pr) {
-        this.AccNo=AccNo;
-        this.Pr=Pr;
+        this.AccNo = AccNo;
+        this.Pr = Pr;
     }
     void Interest()
     {
@@ -49,6 +49,5 @@ public class Q20
 
         sa.Interest();
         fd.Interest();
-
     }
 }

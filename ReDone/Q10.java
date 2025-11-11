@@ -4,10 +4,6 @@ class Box<T> {
     public Box(T value) {
         this.value = value;
     }
-
-    public T display() {
-        return value;
-    }
 }
 
 public class Q10 {

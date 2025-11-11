@@ -5,7 +5,7 @@ public class Q14 {
         try {
             FileWriter fw = new FileWriter("exa.txt");
 
-            fw.write("Java is PolBaba");
+            fw.write("Java is ");
             fw.close();
         } catch (IOException e) {
             System.out.println("Error while writing file " + e.getMessage());

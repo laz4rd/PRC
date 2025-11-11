@@ -9,7 +9,6 @@ public class Q08 {
         while ((line = br.readLine()) != null) {
             System.out.println(line);
         }
-        br.close();
     }
 
     public static void main(String[] args) {

@@ -1,5 +1,3 @@
-/*Write a Java program to check whether an entered number
-is even or odd using the if-else statement*/
 
 import java.util.*;
 

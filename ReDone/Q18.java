@@ -24,8 +24,8 @@ class UPIPayment implements Payment
 public class Q18
 {
     public static void main(String[] args) {
-        CreditCardPayment cred= new CreditCardPayment();
-        UPIPayment upi= new UPIPayment();
+        Payment cred = new CreditCardPayment();
+        Payment upi = new UPIPayment();
 
         cred.pay();
         upi.pay();
