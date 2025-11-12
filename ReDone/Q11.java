@@ -9,7 +9,6 @@ public class Q11 {
         try {
             int a = 10;
             int b = 0;
-
             System.out.println("Answer: " + q11.div(a, b));
         } catch (ArithmeticException e) {
             System.out.println("Arithmetic Error, Cannot divide by 0 " + e.getMessage());
